@@ -5,7 +5,7 @@ describe("Employee", () => {
         it("should create an object with name id and email", () => {
             const name = "will";
             const id = "12";
-            const email = "sam@gmail.com"
+            const email = "sam@gmail.com";
             const obj = new Employee(name, id, email);
             expect(obj.name).toEqual(name);
             expect(obj.id).toEqual(id);
