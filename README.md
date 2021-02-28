@@ -46,6 +46,11 @@ The following image shows a mock-up of the generated HTML’s appearance and fun
 
 The styling in the image is just an example, so feel free to add your own.
 
+The following links demonstrate the functionality of the application:
+https://drive.google.com/file/d/1KJBhjPMDDM6TiGt-B65eRRxAjqRxdL9W/view
+https://drive.google.com/file/d/1ThiI6VGyuwtxUvbyhp2zuOS7jVlBnQ6d/view
+
+
 ## Getting Started
 
 This homework will combine many of the skills we've covered so far. In addition to the User Story and Acceptance Criteria, we’ve provided some guidelines to help get started.

@@ -15,8 +15,11 @@ describe("Manager", () => {
 
     describe("office number", () => {
         it("should create an object with office number", () => {
+            const name = "will";
+            const id = "12";
+            const email = "sam@gmail.com";
             const officeNumber = "222";
-            const obj = new Manager(officeNumber);
+            const obj = new Manager(name, id, email, officeNumber);
             expect(obj.officeNumber).toEqual(officeNumber);
         })
     })

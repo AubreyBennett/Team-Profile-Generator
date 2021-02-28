@@ -15,8 +15,11 @@ describe("Intern", () => {
 
     describe("school", () => {
         it("should create an object with school", () => {
+            const name = "will";
+            const id = "12";
+            const email = "sam@gmail.com";
             const school = "university";
-            const obj = new Intern(school);
+            const obj = new Intern(name, id, email, school);
             expect(obj.school).toEqual(school);
         })
     })

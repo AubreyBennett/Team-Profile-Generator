@@ -15,8 +15,11 @@ describe("Engineer", () => {
 
     describe("github", () => {
         it("should create an object with github username", () => {
+            const name = "will";
+            const id = "12";
+            const email = "sam@gmail.com";
             const github = "sam-i-am";
-            const obj = new Engineer(github);
+            const obj = new Engineer(name, id, email, github);
             expect(obj.github).toEqual(github);
         })
     })
